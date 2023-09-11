@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+}
+.container{
+    margin: 15rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 50svh;
+    width: 70%;
+    background-color: aqua;
+    
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+span{
+    line-height: 60px;
+    font-size: 2rem;
+}
